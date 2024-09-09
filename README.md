@@ -73,3 +73,18 @@ Please create a best practice step by step process for two developers collaborat
 * **Communicate effectively:** Collaborate with your team members to ensure everyone is on the same page.
 
 By following these steps and best practices, you and your collaborators can effectively work together on GitHub projects.
+
+## EXPERIMENT
+
+## Branch "change_001"
+
+- Perform on the Windows desktop with: Github desktop (GD).
+- Create a branch, "change_001" from GD; after create, GD automatically
+  make the branch current (or `git checkout`); any changes onward will
+  be on the "change_001" branch
+- The branch has not been published to remote; as indicated by the 
+  GD
+- making changes to `README.md`, this file, on the branch.
+- GD detected the changes
+- From GD, commit then push to origin
+- Go to `github.com` to try the pull request.
