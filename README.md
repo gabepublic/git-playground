@@ -111,3 +111,6 @@ the options are: Restore the changes, or Discard. Choose Restore.
 - Now, when returning back to "main" branch, again the choice of: 
 keep the changes in the branch, or to bring the changes to "main".
 - Let's take it to the main and commit & push from main.
+- As indicated above, the "change_001" brach can be purged, after pull request -> merge to main.
+  If not ourged, from GD when go back to the "change_001" branch, there is an option
+  to "Preview Pull Request"; in this case the pull request from "main" to merge into "change_001" branch; sort of the opposite of the above pull request. 
