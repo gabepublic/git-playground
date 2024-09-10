@@ -74,7 +74,7 @@ Please create a best practice step by step process for two developers collaborat
 
 By following these steps and best practices, you and your collaborators can effectively work together on GitHub projects.
 
-## EXPERIMENT
+## EXPERIMENTS
 
 ## Branch "change_001"
 
@@ -88,3 +88,26 @@ By following these steps and best practices, you and your collaborators can effe
 - GD detected the changes
 - From GD, commit then push to origin
 - Go to `github.com` to try the pull request.
+- After commit & push origin, the `github.com` alerted the new branch.
+- There are two branches now: main, change_001
+- Switch to "change_001" and the changes in the `README.md` are shown.
+- From GD, click the "Current branch" down arrow, then go to "Pull requests" tab. Click the "create a pull request" link.
+- There is no integration. GD just popup open the browser pointing to `github.com` pull request. HOWEVER, the benefit is the page has been pre-configured to compare "main" and "change_001" branches. In addition, it pre-checks whether the branch can be merged.
+```
+ Able to merge. These branches can be automatically merged.
+``` 
+- The page also shows the file(s) difference.
+- Click Assignees: to self; enter title & description, click the green "Create pull request" button. Note: in this case, I assign it to myself.
+- After clicking the "Create pull request", now the page refresh to show a button for "Merge pull request"; when clicked, the "Confirm merger" button is shown.
+- Enter comment and click the "Confirm merger".
+```
+Pull request successfully merged and closed
+You’re all set—the change_001 branch can be safely deleted.
+```
+- GD, go to the "main" branch then click "Pull origin" to get the latest merged code. 
+- In the meantime, I have made the changes also on the "change_001" branch. When switching to the "main branch" to do the "pull origin" (above), there were option to: keep the changes in the branch, or to bring the changes to "main". I chose the first option, keeping in branch.
+- After "pull origin", go back to the "change_001" branch, and from "View stash"
+the options are: Restore the changes, or Discard. Choose Restore.
+- Now, when returning back to "main" branch, again the choice of: 
+keep the changes in the branch, or to bring the changes to "main".
+- Let's take it to the main and commit & push from main.
