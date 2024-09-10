@@ -115,6 +115,11 @@ keep the changes in the branch, or to bring the changes to "main".
   If not ourged, from GD when go back to the "change_001" branch, there is an option
   to "Preview Pull Request"; in this case the pull request from "main" to merge into "change_001" branch; sort of the opposite of the above pull request. 
 
-## Misc change to rollback
+## Rollback to a specific commit
 
-- this changes is to be rolled back.
+- GD, from the history tab select a commit, right click and select
+  "create branch from commit";
+- A new branch is created.
+- Need to make a minor changes, otherwise cannot commit
+- After minor changes, commit, push origin and then pull request
+
